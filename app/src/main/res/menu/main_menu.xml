@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/archive_menu"
+        android:iconTint="@color/white"
+        android:icon="@drawable/baseline_bookmarks_24"
+        android:title="@string/archive"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/article"
+        android:iconTint="@color/white"
+        android:icon="@drawable/baseline_article_24"
+        android:title="@string/news" />
+</menu>
